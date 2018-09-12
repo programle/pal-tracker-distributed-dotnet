@@ -52,6 +52,7 @@ jobs:
         environment:
           DEBIAN_FRONTEND: "noninteractive"
           EXTRACT_DEST: /tmp/extracted-archive
+          ENVIRONMENT: sandbox
     steps:
       - attach_workspace:
           at: artifacts
@@ -92,6 +93,7 @@ jobs:
         environment:
           DEBIAN_FRONTEND: "noninteractive"
           EXTRACT_DEST: /tmp/extracted-archive
+          ENVIRONMENT: sandbox
     steps:
       - attach_workspace:
           at: artifacts
@@ -132,6 +134,7 @@ jobs:
         environment:
           DEBIAN_FRONTEND: "noninteractive"
           EXTRACT_DEST: /tmp/extracted-archive
+          ENVIRONMENT: sandbox
     steps:
       - attach_workspace:
           at: artifacts
@@ -172,6 +175,7 @@ jobs:
         environment:
           DEBIAN_FRONTEND: "noninteractive"
           EXTRACT_DEST: /tmp/extracted-archive
+          ENVIRONMENT: sandbox
     steps:
       - attach_workspace:
           at: artifacts
